@@ -19,7 +19,6 @@ var APPS = {
     'Xbox': {title: 'Xbox', path: 'script/Apps/Xbox/index.html', icon: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRknRQh-WRK4F75YB3EAlfrsqAk66Xjn45sBg&s', pinned: false},
     'Maxchat': {title: 'Maxchat', path: 'script/Apps/Maxchat/index.html', icon: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0VTIWimnwKT6kMHMAG20E_IUdFDAx8CexaUaB9twOlA&s=10', pinned: false},
 };
-};
 
 var savedPins = localStorage.getItem('c_pins_v2');
 if(savedPins) {
